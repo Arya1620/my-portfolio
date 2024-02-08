@@ -55,7 +55,7 @@ function Projects() {
               imgPath={laptop_covid}
               isBlog={false}
               title="Covid-Tracker"
-              description="This project acts as a crowdfunding platform to NGOs. Simple UI based website made using Node.js, Express, Express Handlebars, Multer, GridFS and other packages."
+              description="This Covid-19 Tracker which has the functionality of displaying data."
               ghLink="https://github.com/Arya1620/covid-live-tracker"
               demoLink="https://65c358aadeda13069e3df87b--covid-t-l.netlify.app/"              
             />
@@ -78,7 +78,7 @@ function Projects() {
               isBlog={false}
               title="Netflix-clone"
               description="This project is in progress and making clone with MERN Stack."
-              ghLink=""
+              ghLink="https://github.com/Arya1620/Netflix-GPT"
               demoLink=""              
             />
           </Col>
