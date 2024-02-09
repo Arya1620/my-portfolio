@@ -7,6 +7,7 @@ import {
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 import {SiLeetcode, SiGeeksforgeeks} from 'react-icons/si'
+import './Home2.css'
 
 function Home2() {
   return (
@@ -52,7 +53,10 @@ function Home2() {
           </Col>
           <Col xs={12} lg={4} className="myAvtar">
             <Tilt>
+              <div className="image-container">
               <img src={myImg} className="img-fluid" alt="avatar" />
+              <div className="rotating-circle"></div>
+             </div>
             </Tilt>
           </Col>
         </Row>
@@ -75,7 +79,7 @@ function Home2() {
               </li>
               {/* <li className="social-icons">
                 <a
-                  href="https://auth.geeksforgeeks.org/user/shxbh_018"
+                  href="https://auth.geeksforgeeks.org/user/"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"

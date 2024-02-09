@@ -1,0 +1,25 @@
+.image-container {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .rotating-circle {
+    position: absolute;
+    border: 5px dashed #7952B3; 
+    border-radius: 50%;
+    width: calc(100% + 20px); 
+    height: calc(100% + 20px); 
+    animation: rotateCircle 20s linear infinite;
+  }
+  
+  @keyframes rotateCircle {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
